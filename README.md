@@ -1,5 +1,7 @@
 # Visual-question-answering-keras
-A simple desktop Graphical User Interface for VQA system. Trained the VQA model on various standard CNNs like ResNet,VGG, Xception etc.
+A simple desktop Graphical User Interface for VQA (CNN+LSTM baseline model) system. Trained the VQA model on various standard CNNs like ResNet,VGG, Xception etc.
+
+Visual question answering is an emerging problem which involves two of the major disciplines of artificial intelligence namely computer vision and natural language processing. This problem deals with answering various question related to an image which requires complete understanding of image as well as the question. The nature of questions, which are not restricted to a simple yes/no answers, makes it a challenging task for the machine. Understanding of the image is provided with the help of features extracted by convolutional neural networks. The question is analyzed using long short term memory(LSTM) recurrent neural networks. 
 
 Steps to run the GUI Implementation (using pre trained weights - no trainig required)- 
 1) Download the weights file from link given. Download the json and corresponding h5 file. Default is the vgg19 model, change the code accordingly for other models(in vqa_change .py)
